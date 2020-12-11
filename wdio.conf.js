@@ -133,6 +133,7 @@ exports.config = {
   },
   eyes: {
     apiKey: process.env.APPLITOOLS_API_KEY,
+    useVisualGrid: true,
     browsersInfo: [
       {name: BrowserType.CHROME, width: 800, height: 600},
       {name: BrowserType.FIREFOX, width: 700, height: 500},
