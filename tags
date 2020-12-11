@@ -4,13 +4,17 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-EyesService	wdio.conf.js	/^const {EyesService} = require('@applitools\/eyes-webdriverio5-service')$/;"	V
+BrowserType	wdio.conf.js	/^const {EyesService, BrowserType, DeviceName, ScreenOrientation} = require('@applitools\/eyes-webdriverio5-service')$/;"	V
+DeviceName	wdio.conf.js	/^const {EyesService, BrowserType, DeviceName, ScreenOrientation} = require('@applitools\/eyes-webdriverio5-service')$/;"	V
+EyesService	wdio.conf.js	/^const {EyesService, BrowserType, DeviceName, ScreenOrientation} = require('@applitools\/eyes-webdriverio5-service')$/;"	V
+ScreenOrientation	wdio.conf.js	/^const {EyesService, BrowserType, DeviceName, ScreenOrientation} = require('@applitools\/eyes-webdriverio5-service')$/;"	V
 bail	wdio.conf.js	/^  bail: 0,$/;"	P
+browsersInfo	wdio.conf.js	/^    browsersInfo: [$/;"	P
 capabilities	wdio.conf.js	/^  capabilities: [{$/;"	P
+concurrency	wdio.conf.js	/^    concurrency: 1,$/;"	P
 config	wdio.conf.js	/^exports.config = {$/;"	P
 connectionRetryCount	wdio.conf.js	/^  connectionRetryCount: 3,$/;"	P
 connectionRetryTimeout	wdio.conf.js	/^  connectionRetryTimeout: 90000,$/;"	P
-debugger	test/specs/example.js	/^    debugger$/;"	V
 exclude	wdio.conf.js	/^  exclude: [$/;"	P
 eyes	wdio.conf.js	/^  eyes: {$/;"	P
 maxInstances	wdio.conf.js	/^    maxInstances: 5,$/;"	P
