@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EyesService	wdio.conf.js	/^const {EyesService} = require('@applitools\/eyes-webdriverio5-service')$/;"	V
+bail	wdio.conf.js	/^  bail: 0,$/;"	P
+capabilities	wdio.conf.js	/^  capabilities: [{$/;"	P
+config	wdio.conf.js	/^exports.config = {$/;"	P
+connectionRetryCount	wdio.conf.js	/^  connectionRetryCount: 3,$/;"	P
+connectionRetryTimeout	wdio.conf.js	/^  connectionRetryTimeout: 90000,$/;"	P
+debugger	test/specs/example.js	/^    debugger$/;"	V
+exclude	wdio.conf.js	/^  exclude: [$/;"	P
+eyes	wdio.conf.js	/^  eyes: {$/;"	P
+maxInstances	wdio.conf.js	/^    maxInstances: 5,$/;"	P
+maxInstances	wdio.conf.js	/^  maxInstances: 10,$/;"	P
+mochaOpts	wdio.conf.js	/^  mochaOpts: {$/;"	P
+reporters	wdio.conf.js	/^  reporters: ['dot'],$/;"	P
+services	wdio.conf.js	/^  services: ['selenium-standalone', [EyesService]],$/;"	P
+specs	wdio.conf.js	/^  specs: [$/;"	P
+timeout	wdio.conf.js	/^    timeout: 60000$/;"	P
+waitforTimeout	wdio.conf.js	/^  waitforTimeout: 10000,$/;"	P
