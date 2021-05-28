@@ -146,7 +146,7 @@ exports.config = {
       {chromeEmulationInfo: {deviceName: DeviceName.iPhone_X, screenOrientation: ScreenOrientation.PORTRAIT}},
       {chromeEmulationInfo: {deviceName: DeviceName.Pixel_2, screenOrientation: ScreenOrientation.PORTRAIT}},
     ],
-    concurrency: 2,
+    concurrency: 5,
   },
   //
   // =====
