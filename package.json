@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/applitools/tutorial-webdriverio-applitools-service#readme",
   "dependencies": {
-    "@applitools/eyes-webdriverio5-service": "^1.11.1",
+    "@applitools/eyes-webdriverio5-service": "^1.12.1",
     "deepmerge": "^4.2.2"
   },
   "devDependencies": {
