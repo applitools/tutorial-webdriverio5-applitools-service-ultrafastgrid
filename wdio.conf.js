@@ -54,6 +54,9 @@ exports.config = {
     maxInstances: 5,
     //
     browserName: 'chrome',
+    "goog:chromeOptions": {
+      args: (process.env.CI === 'true') ? ['--headless', 'disable-gpu'] : []
+    }
     // If outputDir is provided WebdriverIO can capture driver session logs
     // it is possible to configure which logTypes to include/exclude.
     // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -143,7 +146,7 @@ exports.config = {
       {chromeEmulationInfo: {deviceName: DeviceName.iPhone_X, screenOrientation: ScreenOrientation.PORTRAIT}},
       {chromeEmulationInfo: {deviceName: DeviceName.Pixel_2, screenOrientation: ScreenOrientation.PORTRAIT}},
     ],
-    concurrency: 1,
+    concurrency: 5,
   },
   //
   // =====
